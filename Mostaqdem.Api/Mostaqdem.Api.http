@@ -1,0 +1,6 @@
+@Mostaqdem.Api_HostAddress = http://localhost:5272
+
+GET {{Mostaqdem.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

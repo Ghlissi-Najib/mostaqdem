@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Mostaqdem.Api/Mostaqdem.Api.csproj" Id="33adb3cd-47b9-4486-8253-2fbfdb5c41f5" />
+  <Project Path="Mostaqdem.Application/Mostaqdem.Application.csproj" Id="615a33f8-2081-484c-b1fb-01fb1916481e" />
+  <Project Path="Mostaqdem.Domain/Mostaqdem.Domain.csproj" Id="97145eea-cfb4-412b-adfc-ac372f826ba1" />
+  <Project Path="Mostaqdem.Infrastructure/Mostaqdem.Infrastructure.csproj" Id="0ffde60b-afc4-4832-af45-e8cfa0405db0" />
+</Solution>
