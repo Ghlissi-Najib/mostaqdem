@@ -63,6 +63,7 @@ namespace Mostaqdem.Domain.Entities
         public int? DepartmentId { get; set; }
         public int? JobTitleId { get; set; }
         public int? AgencyId { get; set; } // الوكيل
+        public int? BranchId { get; set; } // الفرع
         public string CreatedByUserId { get; set; }
 
         // Navigation Properties
@@ -74,6 +75,9 @@ namespace Mostaqdem.Domain.Entities
         
         [ForeignKey("AgencyId")]
         public virtual Agency Agency { get; set; }
+        
+        [ForeignKey("BranchId")]
+        public virtual Branch Branch { get; set; }
         
         [ForeignKey("CreatedByUserId")]
         public virtual AppUser CreatedByUser { get; set; }
